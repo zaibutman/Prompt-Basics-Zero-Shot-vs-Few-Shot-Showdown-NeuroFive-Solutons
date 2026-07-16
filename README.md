@@ -157,7 +157,7 @@ The experiment highlights that carefully structured prompts are an essential com
 
 ## Author
 
-**Zaib Utman**
+**Shah Mubarak Zaib**
 
 BS Computer Science Student
 AI & Prompt Engineering Enthusiast
