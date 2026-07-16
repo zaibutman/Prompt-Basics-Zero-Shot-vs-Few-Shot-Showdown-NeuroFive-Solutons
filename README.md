@@ -78,11 +78,7 @@ The AI receives the same task instructions along with a few labeled examples bef
 ```text
 Prompt-Basics-ZeroShot-vs-FewShot/
 │
-├── LICENSE
 ├── README.md
-├── .gitignore
-├── requirements.md
-│
 ├── prompts/
 │   ├── zero_shot_prompt.txt
 │   └── few_shot_prompt.txt
@@ -91,12 +87,14 @@ Prompt-Basics-ZeroShot-vs-FewShot/
 │   └── customer_support_messages.md
 │
 ├── results/
-├── chatgpt_results.md
-├── claude_results.md
-├── gemini_results.md
-└── comparison_table.md
-
-
+│   ├── chatgpt_results.md
+│   ├── claude_results.md
+│   ├── gemini_results.md
+│   └── comparison_table.md
+│
+└── assets/
+    └── screenshots/
+```
 
 ---
 
@@ -139,12 +137,13 @@ Through this assignment, I learned that:
 
 The experiment compares the performance of different AI models using both prompting techniques.
 
-| AI Model | Zero-Shot      | Few-Shot|
-| -------- | -------------  | -------------|
-| ChatGPT  | *09/10*   | *10/10* |
-| Claude   | *10/10*   | *10/10* |
-| Gemini   | *09/10*   | *10/10* |
+| AI Model | Zero-Shot       | Few-Shot        |
+| -------- | --------------- | --------------- |
+| ChatGPT  | *09/10* | *10/10* |
+| Claude   | *10/10* | *10/10* |
+| Gemini   | *09/10* | *10/10* |
 
+> Replace the placeholders above with your actual experimental results.
 
 ---
 
@@ -158,7 +157,7 @@ The experiment highlights that carefully structured prompts are an essential com
 
 ## Author
 
-**Shah Mubarak Zaib**
+**Zaib Utman**
 
 BS Computer Science Student
 AI & Prompt Engineering Enthusiast
