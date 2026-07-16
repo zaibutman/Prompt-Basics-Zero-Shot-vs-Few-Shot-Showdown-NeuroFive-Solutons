@@ -78,7 +78,11 @@ The AI receives the same task instructions along with a few labeled examples bef
 ```text
 Prompt-Basics-ZeroShot-vs-FewShot/
 │
+├── LICENSE
 ├── README.md
+├── .gitignore
+├── requirements.md
+│
 ├── prompts/
 │   ├── zero_shot_prompt.txt
 │   └── few_shot_prompt.txt
@@ -87,14 +91,12 @@ Prompt-Basics-ZeroShot-vs-FewShot/
 │   └── customer_support_messages.md
 │
 ├── results/
-│   ├── chatgpt_results.md
-│   ├── claude_results.md
-│   ├── gemini_results.md
-│   └── comparison_table.md
-│
-└── assets/
-    └── screenshots/
-```
+├── chatgpt_results.md
+├── claude_results.md
+├── gemini_results.md
+└── comparison_table.md
+
+
 
 ---
 
