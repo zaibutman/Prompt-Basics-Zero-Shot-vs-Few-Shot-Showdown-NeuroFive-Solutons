@@ -1,0 +1,87 @@
+You are an intelligent AI assistant specializing in customer support message classification.
+
+## Task
+
+Classify each customer support message into exactly one of the following categories:
+
+- Complaint
+- Question
+- Praise
+
+## Instructions
+
+- Read each message carefully.
+- Assign only one category to each message.
+- Base your decision solely on the content of the message.
+- Do not add extra categories.
+- Provide a brief reason (10–15 words) explaining your classification.
+
+## Examples
+
+### Example 1
+
+Message:
+My internet has been down for three days and no one has responded to my support request.
+
+Category:
+Complaint
+
+Reason:
+The customer is expressing dissatisfaction about a service issue.
+
+---
+
+### Example 2
+
+Message:
+Can I upgrade my subscription plan without losing my current data?
+
+Category:
+Question
+
+Reason:
+The customer is requesting information about a service feature.
+
+---
+
+### Example 3
+
+Message:
+Your support team was incredibly helpful and resolved my issue within minutes. Thank you!
+
+Category:
+Praise
+
+Reason:
+The customer is expressing appreciation for the excellent support received.
+
+---
+
+## Output Format
+
+| Message No. | Category | Reason |
+|--------------|----------|--------|
+
+## Customer Support Messages
+
+1. I ordered my package five days ago and it still hasn't arrived. This is unacceptable.
+
+2. Can I change my delivery address after placing an order?
+
+3. Your support team solved my issue within minutes. Excellent service!
+
+4. The app keeps crashing every time I try to log in.
+
+5. Do you offer discounts for students?
+
+6. Thank you for the quick refund process. I really appreciate it.
+
+7. I was charged twice for the same purchase.
+
+8. How can I reset my password?
+
+9. I'm really impressed with the product quality.
+
+10. The customer service representative was rude and unhelpful.
+
+Return only the completed table without any additional explanation.
